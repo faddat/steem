@@ -75,6 +75,7 @@ will build out of the box without further effort:
     mkdir build
     cd build
     cmake -DCMAKE_BUILD_TYPE=Release ..
+    cd ..
     make -j$(nproc) steemd
     make -j$(nproc) cli_wallet
     # optional
